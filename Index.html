@@ -4,45 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best PC Specs for Under $500 (TEST WEBSITE)</title>
-    <!-- Google AdSense Script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4822138404503601"
-        crossorigin="anonymous"></script>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background: linear-gradient(135deg, #e0f2f7, #f0f9ff);
+            background-color: #e0f2f7;
             color: #333;
-            transition: background 0.5s ease;
         }
-
         .container {
             max-width: 900px;
             margin: auto;
             background: #ffffff;
             padding: 30px 40px;
-            border-radius: 15px;
-            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             position: relative;
         }
-
         .test-badge {
             position: absolute;
             top: 0;
             right: 0;
-            background-color: #ff4c4c;
+            background-color: #ff0000;
             color: white;
-            padding: 6px 18px;
-            border-bottom-left-radius: 15px;
+            padding: 5px 15px;
+            border-bottom-left-radius: 10px;
             font-weight: bold;
             text-transform: uppercase;
             letter-spacing: 1px;
             z-index: 10;
-            font-size: 0.9rem;
         }
-
         h1 {
             color: #007bff;
             text-align: center;
@@ -50,56 +42,39 @@
             border-bottom: 2px solid #007bff;
             padding-bottom: 10px;
         }
-
         h2 {
             color: #0056b3;
             margin-top: 25px;
             border-bottom: 1px dashed #cccccc;
             padding-bottom: 5px;
         }
-
         p {
             margin-bottom: 15px;
         }
-
         .spec-item {
             background: #f0f8ff;
             margin-bottom: 15px;
             padding: 20px;
             border-left: 5px solid #28a745;
-            border-radius: 12px;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
             opacity: 0;
-            transform: translateY(20px) scale(0.95);
+            transform: translateY(20px);
             animation: fadeInSlideUp 0.8s ease-out forwards;
         }
-
-        .spec-item:nth-child(2) { animation-delay: 0.15s; }
-        .spec-item:nth-child(3) { animation-delay: 0.3s; }
-        .spec-item:nth-child(4) { animation-delay: 0.45s; }
-        .spec-item:nth-child(5) { animation-delay: 0.6s; }
-        .spec-item:nth-child(6) { animation-delay: 0.75s; }
-        .spec-item:nth-child(7) { animation-delay: 0.9s; }
-        .spec-item:nth-child(8) { animation-delay: 1.05s; }
-
+        .spec-item:nth-child(2) { animation-delay: 0.2s; }
+        .spec-item:nth-child(3) { animation-delay: 0.4s; }
+        .spec-item:nth-child(4) { animation-delay: 0.6s; }
+        .spec-item:nth-child(5) { animation-delay: 0.8s; }
+        .spec-item:nth-child(6) { animation-delay: 1.0s; }
+        .spec-item:nth-child(7) { animation-delay: 1.2s; }
         @keyframes fadeInSlideUp {
-            from { opacity: 0; transform: translateY(20px) scale(0.95); }
-            to { opacity: 1; transform: translateY(0) scale(1); }
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
-
-        a {
-            color: #007bff;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
-        a:hover {
-            text-decoration: underline;
-            color: #0056b3;
-        }
-
+        a { color: #007bff; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
         strong { color: #0056b3; }
-
         .note, .disclaimer-text {
             font-style: italic;
             color: #666;
@@ -107,13 +82,15 @@
             margin-top: 30px;
             padding-top: 15px;
             border-top: 1px dashed #cccccc;
-            transition: all 0.3s ease;
         }
-
         .disclaimer-text {
             border-top: 2px solid #ffc107;
         }
     </style>
+
+    <!-- Google AdSense script (only once) -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4822138404503601"
+        crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -122,27 +99,36 @@
 
         <div class="spec-item">
             <h2>CPU</h2>
-            <p>Best affordable CPU for budget builds.</p>
+            <p>Intel Core i3-12100 or AMD Ryzen 3 4100 — Affordable yet efficient for light gaming and productivity.</p>
         </div>
 
         <div class="spec-item">
             <h2>GPU</h2>
-            <p>Value for money graphics card recommendation.</p>
+            <p>NVIDIA GTX 1650 or AMD RX 6400 — Good performance for budget-friendly gaming builds.</p>
         </div>
 
         <div class="spec-item">
             <h2>RAM</h2>
-            <p>Fast and reliable memory options.</p>
+            <p>16GB DDR4 3200MHz — Enough for multitasking and gaming.</p>
         </div>
 
         <div class="spec-item">
             <h2>Storage</h2>
-            <p>SSD vs HDD choices under $500.</p>
+            <p>500GB NVMe SSD — Fast boot and load times.</p>
         </div>
 
-        <!-- Google AdSense -->
         <div class="spec-item">
-            <h2>Advertisement</h2>
+            <h2>Motherboard</h2>
+            <p>Budget-compatible B660 (Intel) or B450/B550 (AMD) boards.</p>
+        </div>
+
+        <div class="spec-item">
+            <h2>Power Supply</h2>
+            <p>450W 80+ Bronze — Reliable and efficient for budget builds.</p>
+        </div>
+
+        <!-- Google AdSense ad block -->
+        <div class="spec-item">
             <ins class="adsbygoogle"
                  style="display:block"
                  data-ad-client="ca-pub-4822138404503601"
@@ -154,18 +140,6 @@
             </script>
         </div>
 
-        <div class="spec-item">
-            <h2>Motherboard</h2>
-            <p>Best budget motherboards compatible with chosen CPU.</p>
-        </div>
-
-        <div class="spec-item">
-            <h2>Power Supply</h2>
-            <p>Reliable PSUs under $50.</p>
-        </div>
-
-        <p class="note">All prices are subject to change based on availability.</p>
-        <p class="disclaimer-text">This is a test website for demonstration purposes only.</p>
-    </div>
-</body>
-</html>
+        <p class="note">*Prices and availability may vary.*</p>
+        <p class="disclaimer-text">Disclaimer: This is a test website.</p>
+    <
